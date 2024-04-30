@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 2%;
+    background-color: #351038;
+    color: white;
+    font-size:20px;
+}
+label{
+    margin-right: 10px;
+
+
+}
+
+#inpuTtext{
+    
+    font-size:15px;
+    width: 250px;
+    height: 30px;
+
+} 
+#inpuTtext::placeholder{
+    padding: 50px;
+    color: #351038;
+
+}
+button{
+    
+    margin-left: 15px;
+     width: 100px;
+     height: 30px;
+}
+#respostaAPI{
+    width: 80%;
+    height: auto;
+    background: #000;
+}
+
+#respostaAPI .carta{
+    width: auto;
+    margin: 1%;
+    float: left;
+}
+
+#respostaAPI .carta img{
+    width: auto;
+    height: auto;
+}
+
+
+
